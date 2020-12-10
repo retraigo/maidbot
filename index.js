@@ -2,12 +2,10 @@ const Discord = require("discord.js");
 const Commando = require('discord.js-commando');
 
 const client = new Commando.Client({
-    owner: '254950404050255872',
+    owner: 'YOUR ID HERE',
     commandPrefix: 'a!'
 });
-var apiai = require("apiai");
 var config = require("./config");
-var app = apiai(config.Dialogflow);
 console.log(config);
 
 client.on("ready", function() {
@@ -24,7 +22,7 @@ aPP.use(express.static("public"));
 
 
 aPP.get("/", (request, response) => {
-  response.sendFile(__dirname + "/views/index.html");
+  res.send("Hello, master!");
 });
 
 const listener = aPP.listen(process.env.PORT, () => {
