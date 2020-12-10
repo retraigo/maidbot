@@ -10,4 +10,4 @@ A discord bot template made with Discord.js-commando.
 
 => open the config.js file and replace <TOKEN> with your bot's token.
   
-=> run `node maid` in the terminal.
+=> run `node index` in the terminal.
