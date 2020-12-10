@@ -31,7 +31,7 @@ module.exports = class HelpCommand extends Command {
     		const prefix = message.guild ? message.guild.commandPrefix : this.client.commandPrefix;
 
     const helpEmbed = new Discord.MessageEmbed();
-    helpEmbed.setTitle("Artemisia Command Help")
+    helpEmbed.setTitle("Maid Command Help")
     helpEmbed.setColor("#e0e0e0")
 		const groups = this.client.registry.groups;
 		const commands = this.client.registry.findCommands(args.command, false, message);
@@ -41,7 +41,7 @@ module.exports = class HelpCommand extends Command {
 		if(args.command && !showAll) {
       
     if(commands.length === 1) {
-      helpEmbed.setTitle(`Kuroneko ${commands[0].name} help`)
+      helpEmbed.setTitle(`Maid ${commands[0].name} help`)
       .setFooter("Command Help`")
 				let help = stripIndents`
 					${oneLine`
