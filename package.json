@@ -1,0 +1,22 @@
+{
+  "bundleDependencies": false,
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "discord.js": "github:discordjs/discord.js",
+    "discord.js-commando": "github:discordjs/Commando",
+    "express": "^4.17.1",
+    "got": "^11.1.4",
+    "very-urban": "^1.0.2"
+  },
+  "deprecated": false,
+  "description": "Artemisia",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "version": "1.0.0"
+}
