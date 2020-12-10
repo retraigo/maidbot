@@ -1,6 +1,6 @@
 # Maidbot
 
-A discord bot template made with Discord.js-commando.
+A discord bot template made with `discordjs-commando`.
 
 ## How to use
 
@@ -24,3 +24,9 @@ A discord bot template made with Discord.js-commando.
 => open the config.js file and replace <TOKEN> with your bot's token.
   
 => run `node index` in the terminal.
+
+### Things you can do to start developing your bot:
+
+=> Check out https://discordjs.guide for a discord bot guide (tho the repo has basics covered)
+
+=> Refer https://discord.js.org for documentation on `discord.js` and `discordjs-commando`.
