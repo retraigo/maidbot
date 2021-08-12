@@ -1,5 +1,7 @@
 # Maidbot
 
+## This template no longer works.
+
 A discord bot template made with `discordjs-commando`.
 
 ## How to use
@@ -30,3 +32,4 @@ A discord bot template made with `discordjs-commando`.
 => Check out https://discordjs.guide for a discord bot guide (tho the repo has basics covered)
 
 => Refer https://discord.js.org for documentation on `discord.js` and `discordjs-commando`.
+ 
